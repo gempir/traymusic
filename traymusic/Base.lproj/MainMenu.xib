@@ -20,7 +20,6 @@
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <customObject id="0hm-Em-6Yk" customClass="StatusMenuController" customModule="traymusic" customModuleProvider="target">
             <connections>
-                <outlet property="playerState" destination="Osr-Jh-5X5" id="hNL-Wq-AC3"/>
                 <outlet property="statusMenu" destination="jk5-bO-2ld" id="Nyw-NU-dLw"/>
             </connections>
         </customObject>
@@ -43,10 +42,6 @@
                     <connections>
                         <action selector="previousClicked:" target="0hm-Em-6Yk" id="Iy2-dM-ad5"/>
                     </connections>
-                </menuItem>
-                <menuItem isSeparatorItem="YES" id="D4V-Mv-tyN"/>
-                <menuItem title="Current Track" id="Osr-Jh-5X5">
-                    <modifierMask key="keyEquivalentModifierMask"/>
                 </menuItem>
             </items>
             <point key="canvasLocation" x="133" y="205.5"/>
