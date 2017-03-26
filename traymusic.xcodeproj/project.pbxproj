@@ -10,6 +10,8 @@
 		93645A1F1E87D128003B0051 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93645A1E1E87D128003B0051 /* AppDelegate.swift */; };
 		93645A211E87D128003B0051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93645A201E87D128003B0051 /* Assets.xcassets */; };
 		93645A241E87D128003B0051 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93645A221E87D128003B0051 /* MainMenu.xib */; };
+		93645A2C1E87D74D003B0051 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93645A2B1E87D74D003B0051 /* StatusMenuController.swift */; };
+		93645A301E87D9EB003B0051 /* SpotifyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93645A2F1E87D9EB003B0051 /* SpotifyController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		93645A201E87D128003B0051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93645A231E87D128003B0051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		93645A251E87D128003B0051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93645A2B1E87D74D003B0051 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		93645A2F1E87D9EB003B0051 /* SpotifyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifyController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				93645A1E1E87D128003B0051 /* AppDelegate.swift */,
+				93645A2B1E87D74D003B0051 /* StatusMenuController.swift */,
 				93645A201E87D128003B0051 /* Assets.xcassets */,
 				93645A221E87D128003B0051 /* MainMenu.xib */,
 				93645A251E87D128003B0051 /* Info.plist */,
+				93645A2F1E87D9EB003B0051 /* SpotifyController.swift */,
 			);
 			path = traymusic;
 			sourceTree = "<group>";
@@ -129,6 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93645A2C1E87D74D003B0051 /* StatusMenuController.swift in Sources */,
+				93645A301E87D9EB003B0051 /* SpotifyController.swift in Sources */,
 				93645A1F1E87D128003B0051 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
