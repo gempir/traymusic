@@ -26,11 +26,11 @@ class StatusMenuController: NSObject {
     }
     
     @IBAction func previousClicked(_ sender: NSMenuItem) {
-        SpotifyController.nextTrack()
+        SpotifyController.previousTrack()
     }
     
     @IBAction func nextClicked(_ sender: NSMenuItem) {
-        SpotifyController.previousTrack()
+        SpotifyController.nextTrack()
     }
     
     
