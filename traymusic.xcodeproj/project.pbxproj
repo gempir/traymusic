@@ -290,6 +290,7 @@
 				93645A2A1E87D128003B0051 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -33,6 +33,9 @@ class StatusMenuController: NSObject {
         SpotifyController.nextTrack()
     }
     
+    @IBAction func quitClicked(_ sender: NSMenuItem) {
+        NSApplication.shared().terminate(self)
+    }
     
     override func awakeFromNib() {
         let icon = NSImage(named: "statusIcon")
